@@ -212,6 +212,6 @@ const mapDispatchToProps = (dispatch) => {
 }
 
 export default GoogleApiWrapper({
-  apiKey: 'AIzaSyDGC2W4Zo834OS7Nl9chUahICJoFvAQMhU'
+  apiKey: 'abc123'
 })(withRouter(connect(mapStateToProps, mapDispatchToProps)(Excavator)));
 

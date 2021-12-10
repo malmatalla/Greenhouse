@@ -36,9 +36,6 @@ const asyncSites = asyncComponent(() => {
   return import('./containers/Sites/Sites'); 
 });
 
-const asyncExcavator = asyncComponent(() => {
-  return import('./containers/Excavator/Excavator')
-})
 
 class App extends Component{
 
@@ -51,7 +48,6 @@ class App extends Component{
 
     let routes = (
       <Switch>
-        <Route path='/excavator/:siteGroupKey/:deviceKey/:sensorKey' exact component={ asyncExcavator }/>
         <Route path = '/login' component={ Login }/>
         <Route path = '/' component={ PublicHomePage }/>
       </Switch>
@@ -61,7 +57,7 @@ class App extends Component{
       routes = (
         <Switch>
           <Route path='/people-counter/:siteKey/:deviceKey/:sensorKey' exact component={ asyncPeopleCounter }/>
-          <Route path='/excavator/:siteGroupKey/:deviceKey/:sensorKey' exact component={ asyncExcavator }/>
+          
           <Route path='/sites/:siteGroupKey/' exact component={ asyncSites }/>
           <Route path='/cultivation-cabinet/:siteGroupKey' exact component={ asyncCultivationCabinet } />
           <Route path='/site-all-sensors/:siteGroupKey' exact component={ asyncAllSensors } />
