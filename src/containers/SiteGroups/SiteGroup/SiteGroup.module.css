@@ -1,0 +1,46 @@
+.SiteGroup{
+	width: 31%;
+	height: auto; 	
+	display:flex; 
+	flex-direction: column;
+	align-items: center; 
+	justify-content: center; 
+	margin: 0 1% 2% 1%;
+	
+}
+
+@media screen and (max-width: 768px){
+	.SiteGroup {
+	    width: 100%;
+	}
+}
+
+.SiteGroupHeaderContainer{
+	width: 90%; 
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.SiteGroupPropertyValueContainer{
+	display:flex;
+	width: 100%;
+	word-break:break-all;
+}
+
+.SiteGroupPropertyContainer{
+	flex-grow: 1; 
+	width: 50%;
+	text-align:left;
+	padding: 2% 0 2% 2%;
+	font-weight: bold;
+}
+
+.SiteGroupPropertyContainer p{
+	text-transform: capitalize;
+}
+
+.SiteGroupValueContainer{
+	flex-grow: 1; 
+	width: 50%;
+	text-align:left;	
+	padding: 2% 0 0 2%;
+}

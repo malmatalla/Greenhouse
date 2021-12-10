@@ -1,0 +1,13 @@
+.LineGraphContainer{
+	background-color: white;
+	
+	margin-bottom: 2%;
+	width: auto;
+}
+
+.ExtraDataContainer{
+	display:flex; 
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+}

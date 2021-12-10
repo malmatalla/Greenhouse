@@ -1,0 +1,12 @@
+.HeadContainer{
+
+}
+
+.Main{
+	text-align:center;
+	min-height: calc(100vh - 8rem); /*Entire screen height - header and footer height*/	
+}
+
+.Main > h2{
+	color: darkgray;
+}

@@ -1,0 +1,15 @@
+.DeviceRowContainer{
+	width: 100%;
+	margin: 4px 0 4px 0;
+	list-style: none; 
+	flex-grow: 1;
+	flex: 1 0 auto; 
+	height: 65px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.DeviceRowContainer p{
+
+}

@@ -1,0 +1,38 @@
+.PublicHomePageOuterContainer{
+	
+	min-width: 100%;
+	display:flex; 
+}
+
+.Column{
+	width: 50%;
+	min-height: 100%;
+	padding: 2% 2% 2% 2%;
+}
+
+.LeftColumn{
+	
+}
+
+.RightColumn{
+	display:flex; 
+	flex-direction: column; 	
+	padding: 4% 2% 4% 0;
+}
+
+.Row{
+	height: 50%;
+	width: 100%;
+}
+
+.Image{
+	background-image: url('../../assets/images/arduino.jpg');
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+}
+
+.Text{
+	text-align: justify;
+	
+	font-size:1.4rem;
+}

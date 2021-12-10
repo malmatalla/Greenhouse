@@ -1,0 +1,53 @@
+.LoginFieldsOuterContainer{
+	text-align: center;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.LoginFieldInnerContainer{
+	background-color: white;
+	display:flex; 
+	flex-direction: column;
+	padding: 2%;
+	min-width: 35%;
+}
+
+.LoginFieldsForm{
+	display:flex;
+	flex-direction: column;
+}
+
+.Button{	
+	height: 2.5rem;
+	font-size: 1.5rem;
+	font-weight: lighter;
+	display:flex;
+	align-items: center; 
+	justify-content: center;
+	margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 410px) {
+  .Button {
+    font-size: 0.9rem;
+  }
+}
+
+.Button span{	
+	font-weight: lighter;
+}
+
+.ButtonText{
+	font-weight: lighter;
+}
+
+.ForgotPasswordParagraph{
+	margin-top: 2rem;
+}
+
+.ModalInnerContainer{
+	height: 100%;
+	width: 100%; 
+}

@@ -1,0 +1,49 @@
+.NavigationItem{
+	height: 70%; 	
+	text-align:center;
+	background-color: inherit;
+	display:flex;
+	flex: 1 1 0px;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+	margin: 4px 4px 5px 4px;
+	align-self:flex-end;
+	max-width: 170px;
+}
+
+.NotMaterial{
+	border: 1px solid lightgray;
+	border-radius: 15px;
+}
+
+.NavigationItem:last-child{
+	margin-right: 8px;
+}
+
+.NavigationItem a {
+	text-decoration: none; 
+	color:#6d6d6d;
+	font-weight: bold;
+	padding: 0 4px 4px 4px;
+	display:block;
+	width:100%;
+}
+
+.ActiveNavigationItem{
+	color:black!important; /* Need to override .NavigationItem a */
+}
+
+@media (max-width: 499px){
+	.NavigationItem{
+		align-self:flex-end;
+		width: 100%;		
+		flex: 0 0 0px;
+		min-height: 4rem;
+		max-width: 80rem;
+	}
+
+	.NavigationItem:last-child{
+		margin-right: 4px
+	}
+}

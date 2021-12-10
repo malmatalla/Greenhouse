@@ -1,0 +1,45 @@
+.SensorInformationOuterContainer{
+	display: flex;
+	border: 1px solid lightgray;
+	flex-direction: column;
+}
+
+.SensorInformationOuterContainer:not(:first-child){
+	margin-top: 2%;
+}
+
+.SensorInformationRowContainer{
+	display:flex;
+	padding: 1%;
+}
+
+.SensorInformationRowContainer p{
+	margin: 0;
+	padding: 0;
+}
+
+.SensorInformationLabels{
+	flex-grow:1;
+	text-align:left; 
+	padding: 1%;
+}
+
+.SensorInformationLabels p{
+	font-weight: bold;
+	margin-bottom: 2%;
+}
+
+.SensorInformationValues{
+	flex-grow:1;
+	text-align:left; 
+	padding: 1%;
+}
+
+.SensorInformationValues p{
+	margin-bottom: 2%;
+}
+
+.SensorButton{
+	margin: 0 2% 2% 2%;
+	border-top: none;
+}

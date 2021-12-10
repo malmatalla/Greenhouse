@@ -1,0 +1,57 @@
+.Column{
+	flex-direction: column;
+	flex:1 1 auto;
+	margin: 0 1% 2% 1%;
+}
+
+.Sites{	
+	border-radius: 2px;
+	min-height: 15rem; 
+	max-width: 31%;
+	background-color: white;
+}
+
+.SitesButton{
+	max-width: 31%;
+}
+
+@media screen and (max-width: 768px) {
+  .Sites {
+    max-width: 100%;
+  }
+
+  .SitesButton {
+    max-width: 100%;
+  }
+}
+
+.SitesButtonHeaderContainer{
+	width: 90%;
+	margin-left: 5%;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.SitesButtonHeader{
+	/*border-bottom: 1px solid darkgray;
+	position: absolute;*/ 
+}
+
+.SitePropertyValueContainer{
+	display:flex;
+}
+
+.SitePropertyContainer{
+	flex-grow: 1; 
+	width: 50%;
+	text-align:left;
+	padding: 2% 0 2% 2%;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.SiteValueContainer{
+	flex-grow: 1; 
+	width: 50%;
+	text-align:left;	
+	padding: 2% 0 0 2%;
+}

@@ -1,0 +1,14 @@
+.SummaryNumber {
+	display: flex;
+	margin-top: 20px;
+	vertical-align: bottom;
+}
+.NumberWrapper {
+	font-size: 48px;
+}
+.SummaryIcon {
+	height: 60px;
+	width: 60px;
+	margin-left: 20px;
+	margin-right: 20px;
+}

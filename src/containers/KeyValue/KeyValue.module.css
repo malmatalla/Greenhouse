@@ -1,0 +1,32 @@
+.KeyValueContainer{
+	margin: 4px;
+	display: flex;
+    flex-direction: column;
+}
+
+.KeyValueContainer h4{
+	padding-top: 2%;
+}
+
+/* Old KeyValue stuff
+.KeyValueTimeStamp{
+	
+}
+
+.KeyValue{
+	font-weight: bold;
+}
+
+.KeyValueHigh{
+	color: red; 
+	text-decoration:underline; 
+}
+
+.KeyValueLow{
+	color: blue;
+	text-decoration:underline; 
+}
+
+.Amount{
+	font-weight: lighter;
+}*/

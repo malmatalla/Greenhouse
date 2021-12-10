@@ -1,0 +1,30 @@
+/*
+COLOR SCHEME
+#69B320 - DARK GREEN
+#3D64FF - BLUE
+#A3FF47 - LIMEGREEN
+#CC4B25 - LIGHTBROWN
+#B34929 - DARKBROWN
+#EEEEEE - GRAY
+*/
+
+html{
+  min-height: 100vh /*calc(100vh - 8rem);*/
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

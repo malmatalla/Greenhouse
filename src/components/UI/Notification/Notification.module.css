@@ -1,0 +1,85 @@
+.NotificationContainer{
+	width: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%; 
+	transform: translate(-50%, -50%);
+	z-index: 5000;
+	margin: 0 auto 20px auto;
+	padding: 15px 15px;
+	text-align: left;
+	border-radius: 5px;
+    box-shadow: 
+		0 1px 1px rgba(0,0,0,0.1), 
+		inset 0 1px 0 rgba(255,255,255,0.6);  
+	opacity: 1;
+	cursor: default;
+	display: none;
+}
+
+.Active {
+	display: block;
+	animation: fadeInFadeOut 3s linear forwards;
+}
+
+.Success{
+	background: #00ff004a;
+	border: 1px solid green;
+}
+
+.Error{
+	background: #ff00007a;
+	border: 1px solid red;
+}
+
+.Info{
+	background: #0000ff73;
+	color:white;
+	border: 1px solid blue;
+}
+
+.ProgressBar{
+	width: 0;
+	height: 4px;
+	background: rgba(255,255,255,0.3);
+	position: absolute;
+	bottom: 5px;
+	left: 2%;
+	border-radius: 3px;
+	box-shadow: 
+		inset 0 1px 1px rgba(0,0,0,0.05), 
+		0 -1px 0 rgba(255,255,255,0.6);
+	animation: runProgress 2s linear forwards 0.5s;
+}
+
+.Active .ProgressBar {
+	animation: runProgress 2s linear forwards 0.5s;
+}
+
+@keyframes fadeInFadeOut {
+	0% 	{ opacity: 0; top: 55%;}
+	10% { opacity: 1; top: 50%;}
+	90% { opacity: 1; top: 50%;}
+	99% { opacity: 0; top: 45%;}
+	100% { opacity: 0; }
+}
+
+@keyframes runProgress {
+	0%	{ width: 0%; background: rgba(255,255,255,0.3); }
+	100% { width: 96%; background: rgba(255,255,255,1); }
+}
+
+.NotificationBody{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.NotificationContainer img{
+	flex-grow: 1;
+	margin-right: 15px;
+}
+
+.NotificationContainer span{
+	flex-grow: 1;
+}
